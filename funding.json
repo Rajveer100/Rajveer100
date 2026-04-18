@@ -1,0 +1,81 @@
+{
+  "version": "v1.0.0",
+  "entity": {
+    "type": "individual",
+    "role": "maintainer",
+    "name": "Rajveer Singh Bharadwaj",
+    "email": "rajveer.developer@icloud.com",
+    "description": "Member and Committer of LLVM compiler infrastructure and its subprojects with contributions in Swift, Rust and Bevy game engine as well. Current interests revolving around compilers, developer tools, graphics and game development.",
+    "webpageUrl": {
+      "url": "https://github.com/Rajveer100"
+    }
+  },
+  "projects": [
+    {
+      "guid": "llvm",
+      "name": "llvm-project",
+      "description": "The LLVM Project is a collection of modular and reusable compiler and toolchain technologies.",
+      "webpageUrl": {
+        "url": "https://github.com/llvm/llvm-project",
+        "well-known": "https://github.com/llvm/llvm-project/pulls?q=author%3ARajveer100"
+      },
+      "repositoryUrl": {
+        "url": "https://github.com/llvm/llvm-project",
+        "well-known": "https://github.com/llvm/llvm-project/pulls?q=author%3ARajveer100"
+      },
+      "licenses": [
+        "spdx:Apache-2.0"
+      ],
+      "tags": [
+        "compilers",
+        "llvm",
+        "toolchain"
+      ]
+    }
+  ],
+  "funding": {
+    "channels": [
+      {
+        "guid": "github-sponsors",
+        "type": "payment-provider",
+        "address": "https://github.com/sponsors/Rajveer100",
+        "description": "Sponsor me via Github."
+      },
+      {
+        "guid": "paypal-sponsors",
+        "type": "payment-provider",
+        "address": "https://www.paypal.me/RajveerSingh100",
+        "description": "Sponsor me via PayPal."
+      }
+    ],
+    "plans": [
+      {
+        "guid": "developer-time",
+        "status": "active",
+        "name": "Developer Compensation",
+        "description": "Support for my monthly active contributions to open source projects.",
+        "amount": 500,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors",
+          "paypal-sponsors"
+        ]
+      },
+      {
+        "guid": "support-plan",
+        "status": "active",
+        "name": "Support Plan",
+        "description": "Pay any amount you wish to support my work on open source.",
+        "amount": 0,
+        "currency": "USD",
+        "frequency": "monthly",
+        "channels": [
+          "github-sponsors",
+          "paypal-sponsors"
+        ]
+      }
+    ],
+    "history": []
+  }
+}
